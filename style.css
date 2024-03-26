@@ -61,6 +61,9 @@ box-shadow:  -5px 5px 10px #666666,
 @media screen and (max-width:900px) {
     .text-box{
         width: 80vw;
-        height: 20vh;
+        height: auto;
+    }
+    .generator button{
+        padding : 1.5rem;
     }
 }
