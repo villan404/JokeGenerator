@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #C2CFB2;
+}
+
+.header {
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 100vw;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+background: linear-gradient(225deg, #e6e6e6, #ffffff);
+box-shadow:  -5px 5px 10px #666666,
+             5px -5px 10px #ffffff;
+    
+    width: 50vw;
+    height: 40vh;
+}
+.text-box p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.generator{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 10vw;
+    height: 10vh;
+    margin-top: 2rem;
+}
+.generator button{
+    border: none;
+    padding: 1rem;
+    border-radius: 3rem;
+    color: white;
+    background-color: #666666;
+    cursor: pointer;
+}
