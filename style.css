@@ -24,6 +24,10 @@ body {
     margin-top: 3rem;
     width: 100vw;
 }
+.container p{
+    text-align: center;
+    margin-top : 2rem;
+}
 
 .text-box {
     display: flex;
