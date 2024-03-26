@@ -53,7 +53,7 @@ box-shadow:  -5px 5px 10px #666666,
     border: none;
     padding: 1rem;
     border-radius: 3rem;
-    color: white;
-    background-color: #666666;
+    color: black;
+    background-color: #64B6AC;
     cursor: pointer;
 }
