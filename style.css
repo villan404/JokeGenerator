@@ -44,7 +44,7 @@ box-shadow:  -5px 5px 10px #666666,
 .text-box p{
     font-size: 1.5rem;
     text-align: center;
-    margin : 2rem 0 2rem 0;
+    margin : 2rem 1rem 2rem 1rem;
 }
 .generator{
     display: flex;
@@ -65,10 +65,10 @@ box-shadow:  -5px 5px 10px #666666,
 
 @media screen and (max-width:900px) {
     .text-box{
-        width: 80vw;
+        width: 90vw;
         height: auto;
     }
     .generator button{
-        padding : 1.5rem;
+        padding : 2rem;
     }
 }
