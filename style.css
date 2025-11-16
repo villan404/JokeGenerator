@@ -4,12 +4,15 @@
 }
 
 body {
+
     min-height: 100vh;
     background-color: #C2CFB2;
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 3rem;
     line-height: 3rem;
     font-size: 2rem;
@@ -23,52 +26,74 @@ body {
     flex-direction: column;
     margin-top: 3rem;
     width: 100vw;
+
 }
-.container p{
+
+.container p {
     text-align: center;
-    margin-top : 2rem;
+    margin-top: 2rem;
 }
 
 .text-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 38px;
-background: linear-gradient(225deg, #e6e6e6, #ffffff);
-box-shadow:  -5px 5px 10px #666666,
-             5px -5px 10px #ffffff;
-    
     width: 50vw;
-    height: 40vh;
-}
-.joke{
-    font-size: 1.5rem;
-    text-align: center;
-    margin : 2rem 1rem 2rem 1rem;
-}
-.generator{
-    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: start;
-    width: 10vw;
-    height: 10vh;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow: -5px 5px 10px #666666,
+        5px -5px 10px #ffffff;
+}
+
+.joke {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.delivery { 
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+}
+
+#delivery {
+    display: none;
+}
+
+.generator {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 2rem;
 }
-.generator button{
+
+.credit{
+    font-weight: bold;
+}
+
+
+
+.generator button {
     border: none;
-    padding: 1rem;
-    border-radius: 3rem;
+    padding: 1rem 2rem 1rem 2rem;
     color: black;
     background-color: #64B6AC;
     cursor: pointer;
 }
 
 @media screen and (max-width:900px) {
-    .text-box{
+    .text-box {
         width: 90vw;
-        height: auto;
+        height: 100vh;
     }
-    .generator button{
-        padding : 2rem;
+
+    .generator p {
+        width: 50vw;
     }
+
 }
