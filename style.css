@@ -37,7 +37,7 @@ body {
 .text-box {
     display: flex;
     width: 50vw;
-    height: 30vh;
+    min-height: 50vh;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
